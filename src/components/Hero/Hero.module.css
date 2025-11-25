@@ -1,0 +1,150 @@
+.heroContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 12px;
+}
+
+.trusted{
+    border: 2px solid orange;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trustedImg{
+    display: flex;
+}
+
+.trustedImg img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.trusted span{
+    font-size: 18px;
+}
+
+.heroContainer h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.heroContainer h1 span{
+    color: orange;
+}
+
+.heroContainer p{
+    font-size: 24px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.heroBtn{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.heroBtn1{
+    padding: 12px 20px;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.heroBtn2{
+    padding: 12px 20px;
+    background-color: rgb(30, 26, 26);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.heroImg{
+    width: 1000px;
+    object-fit: cover;
+    padding: 0 12px;
+}
+
+.heroImg img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width:1000px) {
+    .heroImg{
+        width: 800px;
+    }
+}
+
+@media (max-width:800px) {
+    .heroImg{
+        width: 600px;
+    }
+}
+
+@media (max-width:600px) {
+    .heroImg{
+        width: 390px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .heroContainer h1{
+    font-size: 50px;
+}
+
+    .heroContainer p{
+    font-size: 20px;
+    max-width: 500px;
+    
+}
+.trustedImg img{
+    width: 30px;
+    height: 30px;
+}
+
+.trusted span{
+    font-size: 16px;
+}
+}
+
+@media (max-width: 600px) {
+    .heroContainer h1{
+    font-size: 40px;
+}
+
+   .heroContainer p{
+    font-size: 16px;
+    max-width: 400px;
+    
+}
+.trustedImg img{
+    width: 20px;
+    height: 20px;
+}
+
+.trusted span{
+    font-size: 16px;
+}
+}

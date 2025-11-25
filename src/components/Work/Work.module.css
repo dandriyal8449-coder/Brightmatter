@@ -1,0 +1,69 @@
+.workSection{
+    padding: 12px;
+}
+
+.workHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+}
+
+.workHeading h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.workHeading p{
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 700px;
+}
+
+.workCardGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.workGridCol{
+    border: 2px solid rgba(255, 166, 0, 0.174);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.workGridCol:hover{
+    scale: 1.04;
+}
+
+
+.workGridCol h2{
+    font-size: 24px;
+    padding: 0 20px
+}
+
+.workGridCol p{
+    font-size: 18px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:800px) {
+    .workCardGrid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:600px) {
+    .workCardGrid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

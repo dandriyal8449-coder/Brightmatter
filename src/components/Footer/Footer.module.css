@@ -1,0 +1,129 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 30px 0;
+}
+
+.footerTop{
+    display: flex;
+}
+
+.footerTopLeft{
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerTopLeft h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footerTopLeft p{
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.footerBtn{
+    display: flex;
+    gap: 18px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footerTopRight{
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerTopRight h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footerTopRight p{
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.footerInput{
+    display: flex;
+    gap: 12px;
+}
+
+.footerInput input{
+    border: 1px solid black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.footerInput button{
+    background-color: orange;
+    padding: 0 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footerBottom{
+    text-align: center;
+    padding: 30px 0;
+}
+
+@media (max-width:850px) {
+    .footerTop{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    .footerTopLeft{
+    padding: 12px ;
+}
+
+.footerTopLeft h2{
+    font-size: 24px;
+}
+
+.footerTopLeft p{
+    font-size: 16px;
+}
+
+.footerBtn{
+    display: flex;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footerTopRight{
+    padding: 12px;
+}
+
+.footerTopRight h2{
+    font-size: 20px;
+}
+
+.footerTopRight p{
+    font-size: 16px;
+}
+
+.footerInput{
+    gap: 6px;
+}
+
+.footerInput input{
+    padding: 12px;
+}
+
+.footerInput button{
+    background-color: orange;
+    padding: 12px 16px;
+}
+
+}
